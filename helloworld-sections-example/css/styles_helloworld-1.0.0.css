@@ -1,0 +1,31 @@
+a.button_popup_img_ch {
+	background: url(/zyncroapps/ext/zyncroapps/helloworld/img/btn-ch-der.png) no-repeat scroll right top transparent;
+	float: left;
+	height: 20px;
+	padding-left: 0;
+	padding-right: 15px;
+	padding-top: 3px;
+	text-decoration: none;
+	color: #fff;
+}
+
+a.button_popup_img_ch:hover{
+	text-decoration:none;
+}
+
+#cuerpo-gral #personal-notification-message{
+	background:#e7f6fd url(/zyncroapps/ext/zyncroapps/helloworld/img/bg_notification-message.png) no-repeat 6px 10px;
+	border:1px solid #b2dff4;
+	margin-top:15px;
+	clear:both;
+	float:left;
+	display:block;
+	padding:10px;
+	padding-left:32px;
+	width:946px;
+	font-size:12px;
+	font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+	color:#585858;
+	border-radius:2px;-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}

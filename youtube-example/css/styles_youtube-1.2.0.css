@@ -1,0 +1,20 @@
+#colContent #lista_muro li.item_muro .comment_wall .videobox{
+	position:relative;
+	margin: 5px 0px;
+}
+
+#colContent #lista_muro li.item_muro .comment_wall .videobox .thumbnail{
+	z-index:13;
+}
+
+#colContent #lista_muro li.item_muro .comment_wall .videobox  .thumbnailImg_play{
+	position: absolute;
+	z-index:15;
+	top: 30.5px;
+	left: 45.5px;
+}
+
+#colContent #lista_muro li.item_muro .comment_wall .videobox  a{
+	width:29px;
+	height:29px;
+}
