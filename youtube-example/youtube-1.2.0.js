@@ -113,12 +113,8 @@ if (typeof $.Zyncro_Apps.youtube == "undefined") {
 	}
 
 	$.Zyncro_Apps.youtube.trigger = function() {
-		if (($("body.panel").length) || ($("body.zprofilecompany").length)
-				|| ($("body.folders").length) || ($("body.search").length)
-				|| ($("body.zprofile").length)
-				|| ($("body.companyfeed").length)
-				|| ($("body.personalfeed").length)
-				|| ($("body.zcomments").length)) {
+		if($("body").is(
+        			".panel, .zprofilecompany, .folders, .search, .zprofile, .companyfeed, .personalfeed, .zcomments")){
 
 			$.Zyncro_Apps.youtube.init();
 		}
